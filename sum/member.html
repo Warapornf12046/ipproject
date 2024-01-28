@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tech City</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="header">
+            <div class="menu">
+                <div class="logo">
+                    <img class="img-fluid h-100" src="img/TechTeam.png" alt="Tech Team Logo">
+                </div>
+                <a href="choose.html">สินค้าและบริการ</a>
+				<a href="_____">คะแนนสะสม</a>
+				<a href="member.html" onclick="register()">สมัครสมาชิก</a>
+				<a href="_____" onclick="login()">เข้าสู่ระบบ</a>
+            </div>
+        </div>
+        <main>
+            <div class="container">
+                <h1>หน้าสมัครสมาชิก</h1>
+                <form action="#">
+                    <label for="id">ID </label>
+                    <input type="text" id="id" name="id" required>
+                    <label for="name">ชื่อ </label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">เบอร์โทรศัพท์ </label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                <div>
+                    <label for="gender">เพศ:</label>
+
+                    <label for="male">ชาย</label>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+
+                    <label for="female">หญิง</label>
+                    <input type="radio" id="female" name="gender" value="female"> 
+                </div>
+                <br>
+                    <button type="submit">ยืนยัน</button>
+                </form>
+            </div>
+        </main>
+</body>
+</html>

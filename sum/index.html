@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tech City</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <div class="logo">
+                <img class="img-fluid h-100" src="img/TechTeam.png" alt="">
+            </div>
+            <a href="choose.html">สินค้าและบริการ</a>
+            <a href="_____">คะแนนสะสม</a>
+            <a href="member.html" onclick="register()">สมัครสมาชิก</a>
+            <a href="_____" onclick="login()">เข้าสู่ระบบ</a>
+        </div>
+    </div>
+
+
+    <p class="time" id="real-time"></p>
+    <script src="script.js"></script>
+    <div class="action-buttons">
+        <button onclick="document.location='choose.html'">สินค้าและบริการ </button>
+        <button onclick="showPoints()">คะแนนสะสม</button>
+        <button onclick="document.location='member.html'">สมัครสมาชิก</button>
+    </div>
+</body>
+
+</html>
